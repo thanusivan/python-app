@@ -13,7 +13,7 @@ def detailes():
      return jsonify({
           'time' : datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
           'hostname': socket.gethostname()
-          'messages': 'You are doing great, human! :) '
+          'messages': 'You are doing great, human! :) :) '
           
      })
 
